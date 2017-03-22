@@ -1,0 +1,140 @@
+p {
+    font-family: "MingLiU", serif;
+}
+
+.left{
+	width: 50%;
+	float: left;
+	border-width: 10px;
+}
+.right{
+	width: 50%;
+	float: right;
+	border-width: 10px;
+}
+
+#leftfilm{
+  float: left;
+  width: 50%;
+  margin: 5px 0 0 0;
+}
+
+#rightfilm{
+  float: right;
+  width: 50%;
+  margin: 0 0 5px 0;
+}
+
+#one{
+   margin: 0 0 0 10px;
+}
+
+#two{
+   margin: 0 0 0 10px;
+}
+
+#three{
+   margin: 0 0 0 10px;
+}
+
+
+.part{
+  line-height: 150%
+}
+
+#p1{
+    padding-bottom: 20px;
+}
+
+#p2{
+    padding-bottom: 20px;
+}
+
+#p3{
+    padding-bottom: 20px;
+}
+
+#p4{
+    padding-bottom: 2px;
+}
+
+#p5{
+    padding-bottom: 2px;
+}
+
+#pic1
+{
+opacity:1;
+filter:alpha(opacity=100);
+}
+#pic1:hover
+{
+opacity:0.3;
+filter:alpha(opacity=30);
+}
+#pic2
+{
+opacity:1;
+filter:alpha(opacity=100);
+}
+#pic2:hover
+{
+opacity:0.3;
+filter:alpha(opacity=30);
+}
+#pic3
+{
+opacity:1;
+filter:alpha(opacity=100);
+}
+#pic3:hover
+{
+opacity:0.3;
+filter:alpha(opacity=30);
+}
+#pic4
+{
+opacity:1;
+filter:alpha(opacity=100);
+}
+#pic4:hover
+{
+opacity:0.3;
+filter:alpha(opacity=30);
+}
+#pic5
+{
+opacity:1;
+filter:alpha(opacity=100);
+}
+#pic5:hover
+{
+opacity:0.3;
+filter:alpha(opacity=30);
+}
+
+#honor{
+  float: left;
+}
+
+#word{
+  float: right;
+}
+
+#time {
+  color:blue;
+  font-size:200%;
+}
+
+a:link {color:#BB0000;}    /* 設定尚未點閱過的連結樣式 */
+a:visited {color:#00BB00;} /* 設定過去曾經閱過的連結 */
+a:hover {color:#BB00FF;}   /* 設定滑鼠游標指在連結位置上的樣式 */
+a:active {color:#0000BB;}  /* 設定上點擊過的連結樣式 */
+
+#NCCU{
+  float:left;
+}
+
+#link{
+  float:right;
+}

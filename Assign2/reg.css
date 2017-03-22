@@ -1,0 +1,70 @@
+body{
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#febbbb+0,fe9090+45,dbb451+100 */
+background: rgb(254,187,187); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(254,187,187,1) 0%, rgba(254,144,144,1) 45%, rgba(219,180,81,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(254,187,187,1) 0%,rgba(254,144,144,1) 45%,rgba(219,180,81,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(254,187,187,1) 0%,rgba(254,144,144,1) 45%,rgba(219,180,81,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#dbb451',GradientType=1 ); /* IE6-9 */
+
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #555;
+}
+
+
+
+#name{
+  width:150px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+#major{
+  width:150px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+#number{
+  width:150px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+#email{
+  width:150px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+#date{
+  width:150px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+#form{
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -180px;
+    margin-left: -90px;
+}
+
+input{
+  border:none;
+}
+
+select{
+  border:none;
+}
+
+input:valid {
+  background:#e0ffdd;
+}
+select:valid {
+  background:#e0ffdd;
+}
+
+input[type=submit]{width:150px; background-color:#32906e; height:30px; color:white;}
